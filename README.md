@@ -4,8 +4,8 @@ This is a demo app that contains basic xamarin components such as StackLayout, G
 Layouts:
 - StackLayout
 - Grid
-Controls
 
+Controls
 - Label
 - Button
 - Entry
