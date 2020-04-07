@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExploringXamarinComponents.MainPage"
+             Title="Components">
+    <StackLayout VerticalOptions="CenterAndExpand">
+
+        <Button Text="StackLayout" Clicked="Button_Stacklayout_Clicked"/>
+        <Button Text="Label"  Clicked="Button_Label_Clicked"/>
+        <Button Text="Button"  Clicked="Button_Button_Clicked"/>
+        <Button Text="Entry"  Clicked="Button_Entry_Clicked"/>
+        <Button Text="Editor"  Clicked="Button_Editor_Clicked"/>
+        <Button Text="Image"  Clicked="Button_Image_Clicked"/>
+        <Button Text="Grid"  Clicked="Button_Grid_Clicked"/>
+        <Button Text="List View"  Clicked="Button_ListView_Clicked"/>
+        <Button Text="Pop-Up"  Clicked="Button_Popup_Clicked"/>
+
+    </StackLayout>
+
+
+</ContentPage>
