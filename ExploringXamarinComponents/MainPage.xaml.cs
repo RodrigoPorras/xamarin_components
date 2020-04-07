@@ -51,6 +51,29 @@ namespace ExploringXamarinComponents
         {
             await Navigation.PushAsync(new MPopup());
         }
-        
+
+        async void Button_DB_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DBViewer());
+        }
+
+        async void Button_WB_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new WeatherViewer());
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            entry.Text = (Application.Current as App).DisplayText;
+        }
+
+        void OnEntryCompleted(object sender, EventArgs e)
+        {
+            (Application.Current as App).DisplayText = entry.Text;
+        }
+
+
     }
 }

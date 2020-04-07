@@ -5,6 +5,10 @@
              Title="Components">
     <StackLayout VerticalOptions="CenterAndExpand">
 
+         <Entry x:Name="entry"
+               Placeholder="Enter text here"
+               Completed="OnEntryCompleted" />
+
         <Button Text="StackLayout" Clicked="Button_Stacklayout_Clicked"/>
         <Button Text="Label"  Clicked="Button_Label_Clicked"/>
         <Button Text="Button"  Clicked="Button_Button_Clicked"/>
@@ -14,6 +18,8 @@
         <Button Text="Grid"  Clicked="Button_Grid_Clicked"/>
         <Button Text="List View"  Clicked="Button_ListView_Clicked"/>
         <Button Text="Pop-Up"  Clicked="Button_Popup_Clicked"/>
+        <Button Text="SQL Lite DB"  Clicked="Button_DB_Clicked"/>
+        <Button Text="Web Services"  Clicked="Button_WB_Clicked"/>
 
     </StackLayout>
 
